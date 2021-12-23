@@ -3,7 +3,6 @@
 
     function my_clock(){
         var el = document.getElementById('clock_div');
-        console.log(111111, el);
         var today=new Date();
         var h=today.getHours();
         var m=today.getMinutes();
